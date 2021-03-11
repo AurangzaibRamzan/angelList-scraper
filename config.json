@@ -1,0 +1,8 @@
+{
+  "db": "mongodb://localhost:27017/utilities-scraper-competitors",
+  "port": 4002,
+  "blazingseollc": {
+    "email": "winston@widespread.com",
+    "key": "y4ckhBal"
+  }
+}

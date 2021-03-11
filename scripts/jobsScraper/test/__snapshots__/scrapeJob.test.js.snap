@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scrape companies job 1 1`] = `
+Object {
+  "description": "Wonolo, which stands for Work Now Locally, is disrupting the $70bn temporary staffing industry. Founded in 2014, Wonolo is a remote-first company with three regional hubs: San Francisco Bay Area, Nashville, and Toronto. We have built a tech-enabled marketplace that connects businesses in need of front-line workers on a temporary or seasonal basis, with 500,000 underemployed workers in local markets all across the country. Our mission is to empower the in-demand workforce by providing flexible and fulfilling job opportunities for everyone.
+
+We’re looking for a Senior Full-Stack Software Engineer to join our Internal Tools team and own the end to end development of software tools and services that the entire organization will leverage. You will join a team of talented full-stack engineers, QA automation developers, a product manager and designer, who love building solutions that improve the daily lives of colleagues as well as boost the performance of the marketplace. 
+
+This is not your average Internal Tools team. At Wonolo, this team plays a mission critical role in our ability to scale a two sided marketplace that supports different verticals within light industrial (Retail and Administrative, Logistics and Fulfillment, Delivery, etc.). This flexibility makes our business resilient, but adds layers of complexity. Internal Tools partners closely with Revenue and Operations teams to prioritize and optimize ops-heavy processes through technology, thus improving speed, quality, and business impact.
+
+We are open to remote candidates located anywhere in Canada.
+
+What you'll do:
+
+
+Work with other engineering and business teams to scope, design, and develop tools that will help the organization be as productive as possible
+Maintain and improve existing codebase for internal tools to ensure they’re scalable in a high-growth environment
+Champion good programming practices that lead to scalable, high performing, and maintainable software
+Be a player coach and mentor junior developers
+
+
+Who you are:
+
+
+5+ years of previous experience as a hands-on technical contributor
+Experience building full-stack applications with React on the front-end
+Back-end development experience in Ruby on Rails, Node.js, or Python is preferred
+You demonstrate a substantial commitment to advancing representation and inclusion
+A team player who enjoys working in a collaborative environment
+Strong communication skills with engineers and non-technical team members
+Experience delivering products in an agile environment
+GraphQL experience is preferred, especially graphql-ruby
+
+
+If you have read up to this point, we hope you are excited about this opportunity to work at Wonolo! Even if your experience does not check every bullet point, we still highly encourage you to apply. The best hires do not always check off every box of a job description.
+
+Benefits and perks:
+
+
+The opportunity for growth in a mission-driven and well-funded start-up
+Competitive salary, meaningful equity, and company bonus
+We cover 100% insurance (medical/dental/vision) premiums
+We encourage a healthy work-life balance and offer flexible schedules, an open vacation policy, and the ability to work from anywhere in Canada (no more commutes!)
+Generous parental leave plan
+Cell phone reimbursement and laptop
+Team outings, virtual happy hours, company off-sites, and more!
+
+
+About Wonolo:
+
+Wonolo is a two-sided online marketplace that serves over 500,000 front-line workers, providing them access to flexible job opportunities across the nation within minutes, at companies like Coca-Cola, HelloFresh, Papa John's, and thousands more. 
+
+We are a remote-first company with 130+ employees in North America and quickly scaling our team in the United States and Canada. We are backed by leading investors including Sequoia, Bain Capital, PivotNorth, and Base10. 
+
+Learn more about us:
+Wonolo is one of Glassdoor's best tech companies to work for in 2021
+Sequoia, leading Silicon Valley venture capital firm, invests in Wonolo
+Yong Kim (CEO) on why he’s passionate about empowering the in-demand workforce
+
+Wonolo is a Great Place to Work Certified company for delivering a consistently high-trust experience for all employees. We value representation and are committed to creating an inclusive work environment. We provide equal employment opportunities for all applicants and employees.
+
+#24 in Glassdoor's Best Places to Work 2021 (Small and Medium)
+#12 in Fortune's Best Workplaces in the Bay Area 2021 (Small and Medium)
+Inc. Magazine's Best Workplaces 2020 (Medium to Large)
+
+Commitment to Diversity, Inclusion, Equity, and Belonging:
+Wonolo welcomes you as you and celebrates our collective diversity. We work to serve the underserved, and we are built on the strength of our entire community. We are especially interested in candidates who represent different cultures, perspectives, and backgrounds as this empowers our team to come together to make the best decisions and biggest impact. 
+
+Wonolo is an equal opportunity employer. We make the best effort to ensure all people feel supported, empowered, and connected at work. A big part of this effort is through our support for members and allies of Employee Resource Groups such as Whammies of Color and Allies At Wonolo (WoCAW), Women of Wonolo (WoW), Parents of Wonolo (PoW), and People Out at Wonolo and Allies (POWA). Individuals seeking to work at or with Wonolo are considered without regards to race, color, religion, national origin, age, sex, marital status, ancestry, physical or mental disability, veteran status, sexual orientation, gender identity or any other protected status under all applicable laws, regulations, and ordinances.
+
+Wonolo Privacy Statement:
+By providing your personal information and/or submitting your application, you agree that Wonolo may use your personal information for the purposes of carrying out its recruitment and hiring process, which may include, but no limited to, reviewing your qualifications, verifying your information, communicating with you about the recruitment process, and retaining your personal data as otherwise needed for recruitment-related activities.
+
+Information you provide Wonolo as part of the recruitment process is accessible only to those Wonolo employees and other third-party service providers involved with Wonolo's recruitment, interview, and onboarding process.  Wonolo does not disclose your personal information to any third party in a manner that would be considered a sale under applicable laws.  By providing your personal information as an applicant for this position or any other position at Wonolo, you agree that your personal data may be transferred and/or disclosed to Wonolo's third-party providers. This may include transfers to servers and databases outside the country where you provided Wonolo with your personal data.
+
+For more information, see the Wonolo Privacy Policy.",
+  "hiringContact": Object {
+    "name": "Vivian Alvarez",
+    "title": "Head of Talent",
+    "url": "https://angel.co//u/vivian-alvarez-1",
+  },
+  "jobType": "Full-time",
+  "location": "Canada • Toronto",
+  "title": "Senior Full-Stack Software Engineer, Internal Tools",
+  "visaSponsorship": "Not Available",
+}
+`;
+
+exports[`scrape companies job 2 1`] = `
+Object {
+  "description": "Wonolo, which stands for Work Now Locally, is disrupting the $70bn temporary staffing industry. Founded in 2014, Wonolo is a remote-first company with three regional hubs: San Francisco Bay Area, Nashville, and Toronto. We have built a tech-enabled marketplace that connects businesses in need of front-line workers on a temporary or seasonal basis, with 500,000 underemployed workers in local markets all across the country. Our mission is to empower the in-demand workforce by providing flexible and fulfilling job opportunities for everyone.
+
+We are looking for a Mobile Developer Intern to join the team in charge of building and scaling our customer-facing web and mobile applications. In this role you will support the development of our mobile offerings businesses use to manage their on-demand staffing needs, making Wonolo indisputably the best customer experience in the category.
+
+The Customer Portal feature team is responsible for all interactions our customers (a.k.a requestors) have with our technology solution. This team owns the web and mobile apps that businesses use to post jobs, manage shifts, rate and pay workers, and monitor the overall performance with Wonolo. This team consists of talented and driven full-stack developers, mobile engineers, a product manager and designer, who have full control of the end to end experience and constantly drive towards improving our customer-based KPIs. This is an exciting position that offers autonomy and teamwork, with clear opportunities for career growth.
+
+This opportunity is open to students located anywhere in Canada and who are interested in 16 month co-ops, with a start time of May 2021.
+
+What you'll do:
+
+
+Support the development of our React Native (iOS/Android) or Swift (iOS) applications, used by some of our biggest customers
+Help design and build initiatives to improve user experience
+Work in a scrum team/agile environment with daily standups and sprint planning
+
+
+Who you are:
+
+
+You are a self-starter, who likes working on user-facing projects and making the user experience enjoyable and efficient
+You have experience working with React (preferably React Native)
+You must have a good knowledge of JavaScript / ES6
+
+
+Nice to haves:
+
+
+Experience with Swift
+Experience with unit testing 
+Experience with mobile development
+
+
+Benefits and perks:
+
+
+The opportunity for growth in a mission-driven and well-funded start-up
+Competitive compensation
+Cell phone reimbursement and company laptop
+We encourage a healthy work-life balance and offer flexible schedules, an open vacation policy, and the ability to work from anywhere in Canada
+Team outings, virtual happy hours, and more!
+
+
+About Wonolo:
+
+Wonolo is a two-sided online marketplace that serves over 500,000 front-line workers, providing them access to flexible job opportunities across the nation within minutes, at companies like Coca-Cola, HelloFresh, Papa John's, and thousands more. 
+
+We are a remote-first company with 130+ employees in North America and quickly scaling our team in the United States and Canada. We are backed by leading investors including Sequoia, Bain Capital, PivotNorth, and Base10. 
+
+Learn more about us:
+Wonolo is one of Glassdoor's best tech companies to work for in 2021
+Sequoia, leading Silicon Valley venture capital firm, invests in Wonolo
+Yong Kim (CEO) on why he’s passionate about empowering the in-demand workforce
+
+Wonolo is a Great Place to Work Certified company for delivering a consistently high-trust experience for all employees. We value representation and are committed to creating an inclusive work environment. We provide equal employment opportunities for all applicants and employees.
+
+#24 in Glassdoor's Best Places to Work 2021 (Small and Medium)
+#12 in Fortune's Best Workplaces in the Bay Area 2021 (Small and Medium)
+Inc. Magazine's Best Workplaces 2020 (Medium to Large)
+
+Commitment to Diversity, Inclusion, Equity, and Belonging:
+Wonolo welcomes you as you and celebrates our collective diversity. We work to serve the underserved, and we are built on the strength of our entire community. We are especially interested in candidates who represent different cultures, perspectives, and backgrounds as this empowers our team to come together to make the best decisions and biggest impact. 
+
+Wonolo is an equal opportunity employer. We make the best effort to ensure all people feel supported, empowered, and connected at work. A big part of this effort is through our support for members and allies of Employee Resource Groups such as Whammies of Color and Allies At Wonolo (WoCAW), Women of Wonolo (WoW), Parents of Wonolo (PoW), and People Out at Wonolo and Allies (POWA). Individuals seeking to work at or with Wonolo are considered without regards to race, color, religion, national origin, age, sex, marital status, ancestry, physical or mental disability, veteran status, sexual orientation, gender identity or any other protected status under all applicable laws, regulations, and ordinances.
+
+Wonolo Privacy Statement:
+By providing your personal information and/or submitting your application, you agree that Wonolo may use your personal information for the purposes of carrying out its recruitment and hiring process, which may include, but no limited to, reviewing your qualifications, verifying your information, communicating with you about the recruitment process, and retaining your personal data as otherwise needed for recruitment-related activities.
+
+Information you provide Wonolo as part of the recruitment process is accessible only to those Wonolo employees and other third-party service providers involved with Wonolo's recruitment, interview, and onboarding process.  Wonolo does not disclose your personal information to any third party in a manner that would be considered a sale under applicable laws.  By providing your personal information as an applicant for this position or any other position at Wonolo, you agree that your personal data may be transferred and/or disclosed to Wonolo's third-party providers. This may include transfers to servers and databases outside the country where you provided Wonolo with your personal data.
+
+For more information, see the Wonolo Privacy Policy.",
+  "hiringContact": Object {
+    "name": "Vivian Alvarez",
+    "title": "Head of Talent",
+    "url": "https://angel.co//u/vivian-alvarez-1",
+  },
+  "jobType": "Internship",
+  "location": "Canada • Toronto",
+  "title": "Mobile Developer (B2B) - PEY Intern, Summer 2021",
+  "visaSponsorship": "Not Available",
+}
+`;

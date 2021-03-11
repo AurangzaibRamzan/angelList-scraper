@@ -5,16 +5,25 @@
   "main": "index.js",
   "scripts": {
     "save-company-urls": "node scripts/getCompanies/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "scrape-companies": "node scripts/companiesScraper/index.js",
+    "scrape-jobs": "node scripts/jobsScraper/index.js",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "assert": "^2.0.0",
+    "async": "^3.2.0",
+    "cheerio": "^1.0.0-rc.5",
     "child_process": "^1.0.2",
     "curl": "^0.1.4",
     "lodash": "^4.17.21",
     "mongodb": "^3.6.4",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "random-useragent": "^0.5.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
   }
 }

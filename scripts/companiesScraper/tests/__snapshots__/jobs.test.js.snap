@@ -1,0 +1,1108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scrape companies stord jobs 1`] = `
+Array [
+  Object {
+    "category": "Engineering",
+    "description": "Own what you build as you create, test, and iterate new features to the STORD platform 
+Work across the company to understand customer and vendor pain points, come up with solutions, and then prototype, iterate, and launch daily",
+    "link": "https://angel.co/company/stord/jobs/1022258-senior-full-stack-engineer",
+    "location": "Atlanta • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Senior Full-Stack Engineer",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Communicate clearly and effectively with internal and external customers to solution, document and deliver integrations.
+Proactively look for opportunities to automate / reduce manual work or error handling, building robust processes.",
+    "link": "https://angel.co/company/stord/jobs/1129804-integrations-lead-solutions-architect",
+    "location": "Atlanta • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Integrations Lead / Solutions Architect",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Attend sprint meetings, act as a scrum master or scrum-of-scrums leader - helping out where ever possible with the teams
+Manage technical projects -- projects not driven by features",
+    "link": "https://angel.co/company/stord/jobs/1137429-engineering-manager",
+    "location": "Atlanta • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Engineering Manager",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Solve the toughest technical challenges in the Supply Chain ecosystem by creating technical designs for two sprint teams. Designs are proven with working code and documented.
+Breakdown the application into services based on your understanding of the domain. Design the interfaces using REST or asynchronous messaging (Kafka)",
+    "link": "https://angel.co/company/stord/jobs/1137430-application-architect",
+    "location": "Atlanta • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Application Architect",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Create full stack applications and tools to make the engineering and operational teams more efficient and productive (e.g., pipelines to production, critical path automation, and customer onboarding tools)
+Work alongside the Site Reliability Engineering team, contributing to the SRE backlog",
+    "link": "https://angel.co/company/stord/jobs/1151680-senior-software-engineer-productivity",
+    "location": "Atlanta • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Senior Software Engineer, Productivity",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Solve a wide variety of technical challenges as well as supply chain challenges that have yet to be solved.
+Work across the company to understand customer and vendor pain points, come up with solutions, and then prototype, iterate, and launch daily.",
+    "link": "https://angel.co/company/stord/jobs/1151681-principal-full-stack-engineer",
+    "location": "Atlanta • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Principal Full-Stack Engineer",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Attend sprint meetings, act as a scrum master or scrum-of-scrums leader - helping out where ever possible with the teams
+Manage technical projects -- projects not driven by features",
+    "link": "https://angel.co/company/stord/jobs/1151682-engineering-manager",
+    "location": "Nashville • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Engineering Manager",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Attend sprint meetings, act as a scrum master or scrum-of-scrums leader - helping out where ever possible with the teams
+Manage technical projects -- projects not driven by features",
+    "link": "https://angel.co/company/stord/jobs/1151683-engineering-manager",
+    "location": "San Francisco • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Engineering Manager",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Attend sprint meetings, act as a scrum master or scrum-of-scrums leader - helping out where ever possible with the teams
+Manage technical projects -- projects not driven by features",
+    "link": "https://angel.co/company/stord/jobs/1151684-engineering-manager",
+    "location": "Los Angeles • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Engineering Manager",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Solve the toughest technical challenges in the Supply Chain ecosystem by creating technical designs for two sprint teams. Designs are proven with working code and documented.
+Breakdown the application into services based on your understanding of the domain. Design the interfaces using REST or asynchronous messaging (Kafka)",
+    "link": "https://angel.co/company/stord/jobs/1151685-application-architect",
+    "location": "Newark • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Application Architect",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Solve the toughest technical challenges in the Supply Chain ecosystem by creating technical designs for two sprint teams. Designs are proven with working code and documented.
+Breakdown the application into services based on your understanding of the domain. Design the interfaces using REST or asynchronous messaging (Kafka)",
+    "link": "https://angel.co/company/stord/jobs/1151686-application-architect",
+    "location": "Los Angeles • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Application Architect",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Solve the toughest technical challenges in the Supply Chain ecosystem by creating technical designs for two sprint teams. Designs are proven with working code and documented.
+Breakdown the application into services based on your understanding of the domain. Design the interfaces using REST or asynchronous messaging (Kafka)",
+    "link": "https://angel.co/company/stord/jobs/1151687-application-architect",
+    "location": "San Francisco • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Application Architect",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Solve a wide variety of technical challenges as well as supply chain challenges that have yet to be solved.
+Work across the company to understand customer and vendor pain points, come up with solutions, and then prototype, iterate, and launch daily.",
+    "link": "https://angel.co/company/stord/jobs/1151688-principal-full-stack-engineer",
+    "location": "Dallas • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Principal Full-Stack Engineer",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Solve a wide variety of technical challenges as well as supply chain challenges that have yet to be solved.
+Work across the company to understand customer and vendor pain points, come up with solutions, and then prototype, iterate, and launch daily.",
+    "link": "https://angel.co/company/stord/jobs/1151689-principal-full-stack-engineer",
+    "location": "Los Angeles • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Principal Full-Stack Engineer",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Solve a wide variety of technical challenges as well as supply chain challenges that have yet to be solved.
+Work across the company to understand customer and vendor pain points, come up with solutions, and then prototype, iterate, and launch daily.",
+    "link": "https://angel.co/company/stord/jobs/1151690-principal-full-stack-engineer",
+    "location": "San Francisco • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Principal Full-Stack Engineer",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Solve the toughest technical challenges in the Supply Chain ecosystem by creating technical designs for two sprint teams. Designs are proven with working code and documented.
+Breakdown the application into services based on your understanding of the domain. Design the interfaces using REST or asynchronous messaging (Kafka)",
+    "link": "https://angel.co/company/stord/jobs/1160635-application-architect",
+    "location": "Nashville",
+    "time": "Posted 1 month ago",
+    "title": "Application Architect",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Solve the toughest technical challenges in the Supply Chain ecosystem by creating technical designs for two sprint teams. Designs are proven with working code and documented.
+Breakdown the application into services based on your understanding of the domain. Design the interfaces using REST or asynchronous messaging (Kafka)",
+    "link": "https://angel.co/company/stord/jobs/1160636-application-architect",
+    "location": "Austin",
+    "time": "Posted 1 month ago",
+    "title": "Application Architect",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Solve the toughest technical challenges in the Supply Chain ecosystem by creating technical designs for two sprint teams. Designs are proven with working code and documented.
+Breakdown the application into services based on your understanding of the domain. Design the interfaces using REST or asynchronous messaging (Kafka)",
+    "link": "https://angel.co/company/stord/jobs/1160637-application-architect",
+    "location": "Dallas",
+    "time": "Posted 1 month ago",
+    "title": "Application Architect",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Solve the toughest technical challenges in the Supply Chain ecosystem by creating technical designs for two sprint teams. Designs are proven with working code and documented.
+Breakdown the application into services based on your understanding of the domain. Design the interfaces using REST or asynchronous messaging (Kafka)",
+    "link": "https://angel.co/company/stord/jobs/1160638-application-architect",
+    "location": "Denver",
+    "time": "Posted 1 month ago",
+    "title": "Application Architect",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Solve the toughest technical challenges in the Supply Chain ecosystem by creating technical designs for two sprint teams. Designs are proven with working code and documented.
+Breakdown the application into services based on your understanding of the domain. Design the interfaces using REST or asynchronous messaging (Kafka)",
+    "link": "https://angel.co/company/stord/jobs/1160639-application-architect",
+    "location": "Seattle",
+    "time": "Posted 1 month ago",
+    "title": "Application Architect",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Attend sprint meetings, act as a scrum master or scrum-of-scrums leader - helping out where ever possible with the teams
+Manage technical projects -- projects not driven by features",
+    "link": "https://angel.co/company/stord/jobs/1171587-engineering-manager",
+    "location": "Austin • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Engineering Manager",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Attend sprint meetings, act as a scrum master or scrum-of-scrums leader - helping out where ever possible with the teams
+Manage technical projects -- projects not driven by features",
+    "link": "https://angel.co/company/stord/jobs/1171588-engineering-manager",
+    "location": "Denver • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Engineering Manager",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Attend sprint meetings, act as a scrum master or scrum-of-scrums leader - helping out where ever possible with the teams
+Manage technical projects -- projects not driven by features",
+    "link": "https://angel.co/company/stord/jobs/1171589-engineering-manager",
+    "location": "Dallas • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Engineering Manager",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Attend sprint meetings, act as a scrum master or scrum-of-scrums leader - helping out where ever possible with the teams
+Manage technical projects -- projects not driven by features",
+    "link": "https://angel.co/company/stord/jobs/1171590-engineering-manager",
+    "location": "Seattle • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Engineering Manager",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Attend sprint meetings, act as a scrum master or scrum-of-scrums leader - helping out where ever possible with the teams
+Manage technical projects -- projects not driven by features",
+    "link": "https://angel.co/company/stord/jobs/1171591-engineering-manager",
+    "location": "Newark • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Engineering Manager",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Solve a wide variety of technical challenges as well as supply chain challenges that have yet to be solved.
+Work across the company to understand customer and vendor pain points, come up with solutions, and then prototype, iterate, and launch daily.",
+    "link": "https://angel.co/company/stord/jobs/1171592-principal-full-stack-engineer",
+    "location": "Austin • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Principal Full-Stack Engineer",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Solve a wide variety of technical challenges as well as supply chain challenges that have yet to be solved.
+Work across the company to understand customer and vendor pain points, come up with solutions, and then prototype, iterate, and launch daily.",
+    "link": "https://angel.co/company/stord/jobs/1171593-principal-full-stack-engineer",
+    "location": "Nashville • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Principal Full-Stack Engineer",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Solve a wide variety of technical challenges as well as supply chain challenges that have yet to be solved.
+Work across the company to understand customer and vendor pain points, come up with solutions, and then prototype, iterate, and launch daily.",
+    "link": "https://angel.co/company/stord/jobs/1171594-principal-full-stack-engineer",
+    "location": "Newark • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Principal Full-Stack Engineer",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Solve a wide variety of technical challenges as well as supply chain challenges that have yet to be solved.
+Work across the company to understand customer and vendor pain points, come up with solutions, and then prototype, iterate, and launch daily.",
+    "link": "https://angel.co/company/stord/jobs/1171595-principal-full-stack-engineer",
+    "location": "Seattle • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Principal Full-Stack Engineer",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Solve a wide variety of technical challenges as well as supply chain challenges that have yet to be solved.
+Work across the company to understand customer and vendor pain points, come up with solutions, and then prototype, iterate, and launch daily.",
+    "link": "https://angel.co/company/stord/jobs/1171596-principal-full-stack-engineer",
+    "location": "Denver • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Principal Full-Stack Engineer",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Own what you build as you create, test, and iterate new features to the STORD platform 
+Work across the company to understand customer and vendor pain points, come up with solutions, and then prototype, iterate, and launch daily",
+    "link": "https://angel.co/company/stord/jobs/1193291-senior-full-stack-engineer-international",
+    "location": "Atlanta • Remote",
+    "time": "Posted 3 weeks ago",
+    "title": "Senior Full-Stack Engineer, International",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Own what you build as you create, test, and iterate new features to the STORD platform 
+Work across the company to understand customer and vendor pain points, come up with solutions, and then prototype, iterate, and launch daily",
+    "link": "https://angel.co/company/stord/jobs/1193292-senior-full-stack-engineer-international",
+    "location": "Poland • Remote",
+    "time": "Posted 3 weeks ago",
+    "title": "Senior Full-Stack Engineer, International",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Own what you build as you create, test, and iterate new features to the STORD platform 
+Work across the company to understand customer and vendor pain points, come up with solutions, and then prototype, iterate, and launch daily",
+    "link": "https://angel.co/company/stord/jobs/1193293-senior-full-stack-engineer-international",
+    "location": "Kenya • Remote",
+    "time": "Posted 3 weeks ago",
+    "title": "Senior Full-Stack Engineer, International",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Own what you build as you create, test, and iterate new features to the STORD platform 
+Work across the company to understand customer and vendor pain points, come up with solutions, and then prototype, iterate, and launch daily",
+    "link": "https://angel.co/company/stord/jobs/1193294-senior-full-stack-engineer-international",
+    "location": "Egypt • Remote",
+    "time": "Posted 3 weeks ago",
+    "title": "Senior Full-Stack Engineer, International",
+  },
+  Object {
+    "category": "Marketing",
+    "description": "Lead, build, and scale a high-performing marketing team
+Develop, test, and scale new ideas for growth",
+    "link": "https://angel.co/company/stord/jobs/1045456-director-of-marketing",
+    "location": "Atlanta",
+    "time": "Posted 4 months ago",
+    "title": "Director of Marketing",
+  },
+  Object {
+    "category": "Marketing",
+    "description": "Lead the Account Management organization’s team and influence our story, value proposition, go-to-market strategy and offerings 
+Manage a team of highly skilled Account Managers, coaching and encouraging them to achieve difficult goals, while promoting longer-term career objectives",
+    "link": "https://angel.co/company/stord/jobs/1055386-senior-manager-demand",
+    "location": "Atlanta",
+    "time": "Posted 3 months ago",
+    "title": "Senior Manager, Demand",
+  },
+  Object {
+    "category": "Operations",
+    "description": "Assist in various parts of the shipment life cycle, from customer interaction and load creation through to negotiating carrier capacity and load delivery
+Arrange transportation, schedule staff, and orchestrate deliveries to meet customer demand with the highest on-time performance possible",
+    "link": "https://angel.co/company/stord/jobs/982427-freight-logistics-coordinator",
+    "location": "Springfield",
+    "time": "Posted 5 months ago",
+    "title": "Freight Logistics Coordinator ",
+  },
+  Object {
+    "category": "Operations",
+    "description": "Develop relationships with Big 4 parcel carriers
+Own parcel solution design to support the needs of STORD’s omni-channel Shippers",
+    "link": "https://angel.co/company/stord/jobs/1155794-supply-chain-manager-parcel",
+    "location": "Atlanta",
+    "time": "Posted 1 month ago",
+    "title": "Supply Chain Manager - Parcel",
+  },
+  Object {
+    "category": "Operations",
+    "description": "Operate as the first welcoming point of contact for STORD Freight office
+Facilitate tracking for employee recognition programs such as celebrating employee birthdays, anniversaries, and other milestones",
+    "link": "https://angel.co/company/stord/jobs/1190941-office-operations-manager",
+    "location": "Springfield",
+    "time": "Posted 3 weeks ago",
+    "title": "Office Operations Manager",
+  },
+  Object {
+    "category": "Operations",
+    "description": "Develop and manage detailed project plans to ensure that milestones are met, risks are raised appropriately, and projects are delivered on time
+Optimize the function through improving the learner centricity and experience to increase the business impact of people operations, the effectiveness of programs, and alignment of learning with business strategy",
+    "link": "https://angel.co/company/stord/jobs/1190942-people-operations-generalist",
+    "location": "Atlanta",
+    "time": "Posted 3 weeks ago",
+    "title": "People Operations Generalist",
+  },
+  Object {
+    "category": "Product",
+    "description": "Ship innovative features from ideation, development, to launch 
+Establish a shared vision across the company by attaining alignment on product priorities",
+    "link": "https://angel.co/company/stord/jobs/1035999-product-manager",
+    "location": "Atlanta • Remote",
+    "time": "Posted 4 months ago",
+    "title": "Product Manager",
+  },
+  Object {
+    "category": "Product",
+    "description": "Own and ship innovative features focused on our intelligence and analytics product
+Partner closely with customers, engineering, data science, and cross functional stakeholders to ensure Stord is on the forefront of actionable insights",
+    "link": "https://angel.co/company/stord/jobs/1129807-senior-product-manager",
+    "location": "Atlanta • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Senior Product Manager",
+  },
+  Object {
+    "category": "Product",
+    "description": "Own and ship innovative features focused on our intelligence and analytics product
+Partner closely with customers, engineering, data science, and cross functional stakeholders to ensure Stord is on the forefront of actionable insights",
+    "link": "https://angel.co/company/stord/jobs/1155415-senior-product-manager",
+    "location": "Atlanta • Remote",
+    "time": "Posted 1 month ago",
+    "title": "Senior Product Manager",
+  },
+  Object {
+    "category": "Product",
+    "description": "Own and ship innovative features focused on our intelligence and analytics product
+Partner closely with customers, engineering, data science, and cross functional stakeholders to ensure Stord is on the forefront of actionable insights",
+    "link": "https://angel.co/company/stord/jobs/1208647-product-manager-analytics",
+    "location": "Atlanta • Remote",
+    "time": "Posted 6 days ago",
+    "title": "Product Manager, Analytics",
+  },
+  Object {
+    "category": "Product",
+    "description": "Own and ship innovative features focused on our intelligence and analytics product
+Partner closely with customers, engineering, data science, and cross functional stakeholders to ensure Stord is on the forefront of actionable insights",
+    "link": "https://angel.co/company/stord/jobs/1208648-product-manager-analytics-alabama-remote",
+    "location": "Alabama • Huntsville • Remote",
+    "time": "Posted 6 days ago",
+    "title": "Product Manager, Analytics - Alabama | Remote",
+  },
+  Object {
+    "category": "Product",
+    "description": "Own and ship innovative features focused on our intelligence and analytics product
+Partner closely with customers, engineering, data science, and cross functional stakeholders to ensure Stord is on the forefront of actionable insights",
+    "link": "https://angel.co/company/stord/jobs/1208649-product-manager-analytics-colorado-remote",
+    "location": "Denver • Colorado • Remote",
+    "time": "Posted 6 days ago",
+    "title": "Product Manager, Analytics - Colorado | Remote",
+  },
+  Object {
+    "category": "Product",
+    "description": "Own and ship innovative features focused on our intelligence and analytics product
+Partner closely with customers, engineering, data science, and cross functional stakeholders to ensure Stord is on the forefront of actionable insights",
+    "link": "https://angel.co/company/stord/jobs/1208650-product-manager-analytics-florida-remote",
+    "location": "Florida • Tampa • Remote",
+    "time": "Posted 6 days ago",
+    "title": "Product Manager, Analytics - Florida | Remote ",
+  },
+  Object {
+    "category": "Product",
+    "description": "Own and ship innovative features focused on our intelligence and analytics product
+Partner closely with customers, engineering, data science, and cross functional stakeholders to ensure Stord is on the forefront of actionable insights",
+    "link": "https://angel.co/company/stord/jobs/1208651-product-manager-analytics-illinois-remote",
+    "location": "Chicago • Illinois • Remote",
+    "time": "Posted 6 days ago",
+    "title": "Product Manager, Analytics - Illinois | Remote",
+  },
+  Object {
+    "category": "Product",
+    "description": "Own and ship innovative features focused on our intelligence and analytics product
+Partner closely with customers, engineering, data science, and cross functional stakeholders to ensure Stord is on the forefront of actionable insights",
+    "link": "https://angel.co/company/stord/jobs/1208652-product-manager-analytics-indiana-remote",
+    "location": "Indianapolis • Indiana • Remote",
+    "time": "Posted 6 days ago",
+    "title": "Product Manager, Analytics - Indiana | Remote ",
+  },
+  Object {
+    "category": "Product",
+    "description": "Own and ship innovative features focused on our intelligence and analytics product
+Partner closely with customers, engineering, data science, and cross functional stakeholders to ensure Stord is on the forefront of actionable insights",
+    "link": "https://angel.co/company/stord/jobs/1208653-product-manager-analytics-michigan-remote",
+    "location": "Detroit • Michigan • Remote",
+    "time": "Posted 6 days ago",
+    "title": "Product Manager, Analytics - Michigan | Remote",
+  },
+  Object {
+    "category": "Product",
+    "description": "Own and ship innovative features focused on our intelligence and analytics product
+Partner closely with customers, engineering, data science, and cross functional stakeholders to ensure Stord is on the forefront of actionable insights",
+    "link": "https://angel.co/company/stord/jobs/1208654-product-manager-analytics-new-jersey-remote",
+    "location": "New Jersey • Newark • Remote",
+    "time": "Posted 6 days ago",
+    "title": "Product Manager, Analytics - New Jersey | Remote ",
+  },
+  Object {
+    "category": "Product",
+    "description": "Own and ship innovative features focused on our intelligence and analytics product
+Partner closely with customers, engineering, data science, and cross functional stakeholders to ensure Stord is on the forefront of actionable insights",
+    "link": "https://angel.co/company/stord/jobs/1208655-product-manager-analytics-new-york-remote",
+    "location": "New York City • Remote",
+    "time": "Posted 6 days ago",
+    "title": "Product Manager, Analytics - New York | Remote",
+  },
+  Object {
+    "category": "Product",
+    "description": "Own and ship innovative features focused on our intelligence and analytics product
+Partner closely with customers, engineering, data science, and cross functional stakeholders to ensure Stord is on the forefront of actionable insights",
+    "link": "https://angel.co/company/stord/jobs/1208656-product-manager-analytics-oregon-remote",
+    "location": "Portland • Oregon • Remote",
+    "time": "Posted 6 days ago",
+    "title": "Product Manager, Analytics | Oregon - Remote",
+  },
+  Object {
+    "category": "Product",
+    "description": "Own and ship innovative features focused on our intelligence and analytics product
+Partner closely with customers, engineering, data science, and cross functional stakeholders to ensure Stord is on the forefront of actionable insights",
+    "link": "https://angel.co/company/stord/jobs/1208657-product-manager-analytics-california-remote",
+    "location": "California • Los Angeles • Remote",
+    "time": "Posted 6 days ago",
+    "title": "Product Manager, Analytics - California | Remote ",
+  },
+  Object {
+    "category": "Product",
+    "description": "Own and ship innovative features focused on our intelligence and analytics product
+Partner closely with customers, engineering, data science, and cross functional stakeholders to ensure Stord is on the forefront of actionable insights",
+    "link": "https://angel.co/company/stord/jobs/1208658-product-manager-analytics-tennessee-remote",
+    "location": "Tennessee • Chattanooga • Remote",
+    "time": "Posted 6 days ago",
+    "title": "Product Manager, Analytics - Tennessee | Remote ",
+  },
+  Object {
+    "category": "Product",
+    "description": "Own and ship innovative features focused on our intelligence and analytics product
+Partner closely with customers, engineering, data science, and cross functional stakeholders to ensure Stord is on the forefront of actionable insights",
+    "link": "https://angel.co/company/stord/jobs/1208659-product-manager-analytics-texas-remote",
+    "location": "Austin • Texas • Remote",
+    "time": "Posted 6 days ago",
+    "title": "Product Manager, Analytics - Texas | Remote ",
+  },
+  Object {
+    "category": "Product",
+    "description": "Own and ship innovative features focused on our intelligence and analytics product
+Partner closely with customers, engineering, data science, and cross functional stakeholders to ensure Stord is on the forefront of actionable insights",
+    "link": "https://angel.co/company/stord/jobs/1208660-product-manager-analytics-washington-remote",
+    "location": "Washington • Olympia • Remote",
+    "time": "Posted 6 days ago",
+    "title": "Product Manager, Analytics - Washington | Remote ",
+  },
+  Object {
+    "category": "Product",
+    "description": "Own and ship innovative features focused on our intelligence and analytics product
+Partner closely with customers, engineering, data science, and cross functional stakeholders to ensure Stord is on the forefront of actionable insights",
+    "link": "https://angel.co/company/stord/jobs/1208661-senior-product-manager-insights-optimizations",
+    "location": "Atlanta • Georgia • Remote",
+    "time": "Posted 6 days ago",
+    "title": "Senior Product Manager - Insights & Optimizations ",
+  },
+  Object {
+    "category": "Sales",
+    "description": "Thank you for the interest in a Sales role STORD! We look forward to learning more about you – please fill out the following fields and we will reach out if there is overlap in opportunity.",
+    "link": "https://angel.co/company/stord/jobs/893202-future-sales",
+    "location": "Atlanta",
+    "time": "Posted 8 months ago",
+    "title": "Future Sales",
+  },
+  Object {
+    "category": "Sales",
+    "description": "Create conversations with business people that make them aware of Stord’s products and services and lead to new customers and revenue
+Learn the skills necessary to be a great BDR and successful salesperson in the future",
+    "link": "https://angel.co/company/stord/jobs/982426-business-development-representative",
+    "location": "Atlanta",
+    "time": "Posted 5 months ago",
+    "title": "Business Development Representative",
+  },
+  Object {
+    "category": "Sales",
+    "description": "Grow volume, revenue, and margin for your portfolio of existing accounts through excellent communication, relationship building, and service
+Delight customers by providing exceptional customer experience and timely communication",
+    "link": "https://angel.co/company/stord/jobs/1043775-account-manager-freight",
+    "location": "Atlanta",
+    "time": "Posted 4 months ago",
+    "title": "Account Manager - Freight ",
+  },
+  Object {
+    "category": "Sales",
+    "description": "Identify, research, and establish contact with a potential new client through account based selling techniques
+Listen carefully and document challenges potential new customers are facing",
+    "link": "https://angel.co/company/stord/jobs/1055385-account-executive-software",
+    "location": "Atlanta",
+    "time": "Posted 3 weeks ago",
+    "title": "Account Executive - Software",
+  },
+  Object {
+    "category": "Sales",
+    "description": "Identify, research, and establish contact with a potential new client through account based selling techniques
+Listen carefully and document challenges potential new customers are facing",
+    "link": "https://angel.co/company/stord/jobs/1055387-account-executive-transportation",
+    "location": "Atlanta",
+    "time": "Posted 2 weeks ago",
+    "title": "Account Executive - Transportation",
+  },
+  Object {
+    "category": "Sales",
+    "description": "Develop consultative relationships with Clients and prospects to introduce Stord’s full breadth of services
+Proactively generate leads and work with team members to pursue business relationships with prospective clients",
+    "link": "https://angel.co/company/stord/jobs/1055388-account-executive-3pl",
+    "location": "Atlanta",
+    "time": "Posted 3 months ago",
+    "title": "Account Executive - 3PL",
+  },
+  Object {
+    "category": "Sales",
+    "description": "Preparing and conducting software demonstrations alongside the STORD sales team
+Providing needed business expertise in such processes as wholesale distribution and workflow analysis.",
+    "link": "https://angel.co/company/stord/jobs/1188139-sales-engineer",
+    "location": "Atlanta • Remote",
+    "time": "Posted 4 weeks ago",
+    "title": "Sales Engineer",
+  },
+  Object {
+    "category": "Other",
+    "description": "Manage competing priorities and proactively create solutions for complex supply chain problems
+Continually streamline and improve processes with both STORD’s customers and suppliers",
+    "link": "https://angel.co/company/stord/jobs/1115756-program-manager",
+    "location": "Atlanta",
+    "time": "Posted 2 months ago",
+    "title": "Program Manager ",
+  },
+  Object {
+    "category": "Other",
+    "description": "Interact with business stakeholders to understand business requirements and implement solutions ranging from process improvements to dashboards
+Define, develop and track company-wide standardized KPI dashboards for our Operations, Supplier Relations, Finance, Freight and Engineering teams",
+    "link": "https://angel.co/company/stord/jobs/1120109-supply-chain-data-analyst",
+    "location": "Atlanta",
+    "time": "Posted 2 months ago",
+    "title": "Supply Chain Data Analyst",
+  },
+  Object {
+    "category": "Other",
+    "description": "Own the execution of facility design
+Management of layouts, labor planning, pick & pack workflows, and WMS configuration and automation",
+    "link": "https://angel.co/company/stord/jobs/1139797-implementation-specialist",
+    "location": "Atlanta",
+    "time": "Posted 1 month ago",
+    "title": "Implementation Specialist",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to solution, document and deliver integrations.
+Proactively look for opportunities to automate / reduce manual work or error handling, building robust processes.",
+    "link": "https://angel.co/company/stord/jobs/1227660-integrations-lead-illinois-remote",
+    "location": "Chicago • Illinois • Remote",
+    "time": "Posted 7 days ago",
+    "title": "Integrations Lead - Illinois | Remote ",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to solution, document and deliver integrations.
+Proactively look for opportunities to automate / reduce manual work or error handling, building robust processes.",
+    "link": "https://angel.co/company/stord/jobs/1227661-integrations-lead-indiana-remote",
+    "location": "Indianapolis • Indiana • Remote",
+    "time": "Posted 7 days ago",
+    "title": "Integrations Lead - Indiana | Remote ",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to solution, document and deliver integrations.
+Proactively look for opportunities to automate / reduce manual work or error handling, building robust processes.",
+    "link": "https://angel.co/company/stord/jobs/1227662-integrations-lead-michigan-remote",
+    "location": "Detroit • Michigan • Remote",
+    "time": "Posted 7 days ago",
+    "title": "Integrations Lead - Michigan | Remote ",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to solution, document and deliver integrations.
+Proactively look for opportunities to automate / reduce manual work or error handling, building robust processes.",
+    "link": "https://angel.co/company/stord/jobs/1227663-integrations-lead-new-york-remote",
+    "location": "New York City • New York • Remote",
+    "time": "Posted 7 days ago",
+    "title": "Integrations Lead - New York | Remote ",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to solution, document and deliver integrations.
+Proactively look for opportunities to automate / reduce manual work or error handling, building robust processes.",
+    "link": "https://angel.co/company/stord/jobs/1227664-integrations-lead-oregon-remote",
+    "location": "Portland • Oregon • Remote",
+    "time": "Posted 7 days ago",
+    "title": "Integrations Lead - Oregon | Remote ",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to solution, document and deliver integrations.
+Proactively look for opportunities to automate / reduce manual work or error handling, building robust processes.",
+    "link": "https://angel.co/company/stord/jobs/1227665-integrations-lead-tennessee-remote",
+    "location": "Tennessee • Chattanooga • Remote",
+    "time": "Posted 7 days ago",
+    "title": "Integrations Lead - Tennessee | Remote ",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to solution, document and deliver integrations.
+Proactively look for opportunities to automate / reduce manual work or error handling, building robust processes.",
+    "link": "https://angel.co/company/stord/jobs/1232690-integrations-lead",
+    "location": "Atlanta • Remote",
+    "time": "Posted 5 days ago",
+    "title": "Integrations Lead ",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to solution, document and deliver integrations.
+Proactively look for opportunities to automate / reduce manual work or error handling, building robust processes.",
+    "link": "https://angel.co/company/stord/jobs/1232691-integrations-lead-alabama-remote",
+    "location": "Alabama • Huntsville • Remote",
+    "time": "Posted 5 days ago",
+    "title": "Integrations Lead - Alabama | Remote ",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to solution, document and deliver integrations.
+Proactively look for opportunities to automate / reduce manual work or error handling, building robust processes.",
+    "link": "https://angel.co/company/stord/jobs/1232692-integrations-lead-california-remote",
+    "location": "California • Los Angeles • Remote",
+    "time": "Posted 5 days ago",
+    "title": "Integrations Lead - California | Remote ",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to solution, document and deliver integrations.
+Proactively look for opportunities to automate / reduce manual work or error handling, building robust processes.",
+    "link": "https://angel.co/company/stord/jobs/1232693-integrations-lead-colorado-remote",
+    "location": "Denver • Colorado • Remote",
+    "time": "Posted 5 days ago",
+    "title": "Integrations Lead - Colorado | Remote",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to solution, document and deliver integrations.
+Proactively look for opportunities to automate / reduce manual work or error handling, building robust processes.",
+    "link": "https://angel.co/company/stord/jobs/1232694-integrations-lead-florida-remote",
+    "location": "Florida • Tampa • Remote",
+    "time": "Posted 5 days ago",
+    "title": "Integrations Lead - Florida | Remote ",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to solution, document and deliver integrations.
+Proactively look for opportunities to automate / reduce manual work or error handling, building robust processes.",
+    "link": "https://angel.co/company/stord/jobs/1232695-integrations-lead-new-jersey-remote",
+    "location": "Newark • Remote",
+    "time": "Posted 5 days ago",
+    "title": "Integrations Lead - New Jersey | Remote",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to solution, document and deliver integrations.
+Proactively look for opportunities to automate / reduce manual work or error handling, building robust processes.",
+    "link": "https://angel.co/company/stord/jobs/1232696-integrations-lead-texas-remote",
+    "location": "Austin • Texas • Remote",
+    "time": "Posted 5 days ago",
+    "title": "Integrations Lead - Texas | Remote ",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to solution, document and deliver integrations.
+Proactively look for opportunities to automate / reduce manual work or error handling, building robust processes.",
+    "link": "https://angel.co/company/stord/jobs/1232697-integrations-lead-washington-remote",
+    "location": "Washington • Olympia • Remote",
+    "time": "Posted 5 days ago",
+    "title": "Integrations Lead - Washington | Remote",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to understand and resolve issues related to integrations
+Own ETL related updates and deployments for production support",
+    "link": "https://angel.co/company/stord/jobs/1238687-integrations-specialist",
+    "location": "Atlanta • Georgia • Remote",
+    "time": "Posted yesterday",
+    "title": "Integrations Specialist",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to understand and resolve issues related to integrations
+Own ETL related updates and deployments for production support",
+    "link": "https://angel.co/company/stord/jobs/1238688-integrations-specialist-california-remote",
+    "location": "California • Los Angeles • Remote",
+    "time": "Posted yesterday",
+    "title": "Integrations Specialist - California | Remote",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to understand and resolve issues related to integrations
+Own ETL related updates and deployments for production support",
+    "link": "https://angel.co/company/stord/jobs/1238689-integrations-specialist-colorado-remote",
+    "location": "Denver • Colorado • Remote",
+    "time": "Posted yesterday",
+    "title": "Integrations Specialist - Colorado | Remote ",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to understand and resolve issues related to integrations
+Own ETL related updates and deployments for production support",
+    "link": "https://angel.co/company/stord/jobs/1238690-integrations-specialist-florida-remote",
+    "location": "Florida • Tampa • Remote",
+    "time": "Posted yesterday",
+    "title": "Integrations Specialist - Florida | Remote",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to understand and resolve issues related to integrations
+Own ETL related updates and deployments for production support",
+    "link": "https://angel.co/company/stord/jobs/1238691-integrations-specialist-illinois-remote",
+    "location": "Chicago • Illinois • Remote",
+    "time": "Posted yesterday",
+    "title": "Integrations Specialist - Illinois | Remote",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to understand and resolve issues related to integrations
+Own ETL related updates and deployments for production support",
+    "link": "https://angel.co/company/stord/jobs/1238692-integrations-specialist-indiana-remote",
+    "location": "Indianapolis • Indiana • Remote",
+    "time": "Posted yesterday",
+    "title": "Integrations Specialist - Indiana | Remote",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to understand and resolve issues related to integrations
+Own ETL related updates and deployments for production support",
+    "link": "https://angel.co/company/stord/jobs/1238693-integrations-specialist-michigan-remote",
+    "location": "Detroit • Michigan • Remote",
+    "time": "Posted yesterday",
+    "title": "Integrations Specialist - Michigan | Remote",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to understand and resolve issues related to integrations
+Own ETL related updates and deployments for production support",
+    "link": "https://angel.co/company/stord/jobs/1238694-integrations-specialist-new-jersey-remote",
+    "location": "New Jersey • Newark • Remote",
+    "time": "Posted yesterday",
+    "title": "Integrations Specialist - New Jersey | Remote ",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to understand and resolve issues related to integrations
+Own ETL related updates and deployments for production support",
+    "link": "https://angel.co/company/stord/jobs/1238695-integrations-specialist-new-york-remote",
+    "location": "New York City • Remote",
+    "time": "Posted yesterday",
+    "title": "Integrations Specialist - New York | Remote",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to understand and resolve issues related to integrations
+Own ETL related updates and deployments for production support",
+    "link": "https://angel.co/company/stord/jobs/1238696-integrations-specialist-oregon-remote",
+    "location": "Portland • Oregon • Remote",
+    "time": "Posted yesterday",
+    "title": "Integrations Specialist - Oregon | Remote",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to understand and resolve issues related to integrations
+Own ETL related updates and deployments for production support",
+    "link": "https://angel.co/company/stord/jobs/1238697-integrations-specialist-tennessee-remote",
+    "location": "Tennessee • Chattanooga • Remote",
+    "time": "Posted yesterday",
+    "title": "Integrations Specialist - Tennessee | Remote",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to understand and resolve issues related to integrations
+Own ETL related updates and deployments for production support",
+    "link": "https://angel.co/company/stord/jobs/1238698-integrations-specialist-texas-remote",
+    "location": "Austin • Texas • Remote",
+    "time": "Posted yesterday",
+    "title": "Integrations Specialist - Texas | Remote ",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to understand and resolve issues related to integrations
+Own ETL related updates and deployments for production support",
+    "link": "https://angel.co/company/stord/jobs/1238699-integrations-specialist-washington-remote",
+    "location": "Olympia • Remote",
+    "time": "Posted yesterday",
+    "title": "Integrations Specialist - Washington | Remote",
+  },
+  Object {
+    "category": "Other",
+    "description": "Communicate clearly and effectively with internal and external customers to understand and resolve issues related to integrations
+Own ETL related updates and deployments for production support",
+    "link": "https://angel.co/company/stord/jobs/1238700-integrations-specialist-north-carolina-remote",
+    "location": "North Carolina • Raleigh • Remote",
+    "time": "Posted yesterday",
+    "title": "Integrations Specialist - North Carolina | Remote",
+  },
+  Object {
+    "category": "Other",
+    "description": "Take a lead role in managing the implementation and launch of new STORD 3PL warehousing & fulfillment projects in various locations across the US and Canada
+Develop and manage processes designed to ensure 3PL facilities are compliant with STORD guidelines and meet regulatory, quality, safety and security requirements",
+    "link": "https://angel.co/company/stord/jobs/1241432-implementations-manager",
+    "location": "Atlanta",
+    "time": "Posted today",
+    "title": "Implementations Manager",
+  },
+]
+`;
+
+exports[`scrape companies wonolo jobs 1`] = `
+Array [
+  Object {
+    "category": "Designer",
+    "description": "Design and execute research using the right methodologies for the right questions in a highly collaborative environment, working with business stakeholders, product managers, designers, data scientists, and engineers
+Engage with research participants on both the business-side and worker-side, online and offline...",
+    "link": "https://angel.co/company/wonolo/jobs/1213769-senior-user-experience-researcher",
+    "location": "United States",
+    "time": "Posted 2 weeks ago",
+    "title": "Senior User Experience Researcher",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Work with other engineering and business teams to scope, design, and develop tools that will help the organization be as productive as possible
+Maintain and improve existing codebase for internal tools to ensure they’re scalable in a high-growth environment",
+    "link": "https://angel.co/company/wonolo/jobs/909052-senior-full-stack-software-engineer-internal-tools",
+    "location": "Canada • Toronto",
+    "time": "Posted 2 weeks ago",
+    "title": "Senior Full-Stack Software Engineer, Internal Tools",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Support the development of our React Native (iOS/Android) or Swift (iOS) applications, used by some of our biggest customers
+Help design and build initiatives to improve user experience",
+    "link": "https://angel.co/company/wonolo/jobs/1039539-mobile-developer-b2b-pey-intern-summer-2021",
+    "location": "Canada • Toronto",
+    "time": "Posted 4 months ago",
+    "title": "Mobile Developer (B2B) - PEY Intern, Summer 2021",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Participate in building test automation frameworks for APIs, Web Portals, and Mobile Applications using Python and Robot Framework
+Help design, architect and execute initiatives to improve product quality",
+    "link": "https://angel.co/company/wonolo/jobs/1039540-test-automation-developer-pey-intern-summer-2021",
+    "location": "Canada • Toronto",
+    "time": "Posted 4 months ago",
+    "title": "Test Automation Developer - PEY Intern, Summer 2021",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Build new features from scratch using Java and Kotlin to enhance the experience of our worker (aka Wonoloer) community
+Clean up and improve existing code",
+    "link": "https://angel.co/company/wonolo/jobs/1059628-android-developer-pey-intern-summer-2021",
+    "location": "Canada • Toronto",
+    "time": "Posted 3 months ago",
+    "title": "Android Developer - PEY Intern, Summer 2021",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Build new features from scratch using Swift to enhance the experience of our worker (aka Wonoloer) community
+Clean up and enhance existing code",
+    "link": "https://angel.co/company/wonolo/jobs/1059629-ios-developer-pey-intern-summer-2021",
+    "location": "Canada • Toronto",
+    "time": "Posted 3 months ago",
+    "title": "iOS Developer - PEY Intern, Summer 2021",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Work with the Supply team to create, launch, and refine processes that support a new market’s supply-side growth
+80-90% of role will be traveling to new markets and growing a community of passionate Wonoloers across the United States",
+    "link": "https://angel.co/company/wonolo/jobs/1104904-manager-supply-launch-and-development",
+    "location": "Miami • Florida",
+    "time": "Posted 2 months ago",
+    "title": "Manager, Supply Launch and Development",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Write high-performing, maintainable code while iterating and shipping rapidly
+Participate in ideating, designing, and executing significant architectural change",
+    "link": "https://angel.co/company/wonolo/jobs/1121928-senior-backend-engineer",
+    "location": "Canada • Toronto",
+    "time": "Posted 2 months ago",
+    "title": "Senior Backend Engineer",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Work with the Supply team to create, launch, and refine processes that support a new market’s supply-side growth
+80-90% of role will be traveling to new markets and growing a community of passionate Wonoloers across the United States",
+    "link": "https://angel.co/company/wonolo/jobs/1129951-manager-supply-launch-and-development",
+    "location": "Detroit • Michigan",
+    "time": "Posted 1 month ago",
+    "title": "Manager, Supply Launch and Development",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Work with the Supply team to create, launch, and refine processes that support a new market’s supply-side growth
+80-90% of role will be traveling to new markets and growing a community of passionate Wonoloers across the United States",
+    "link": "https://angel.co/company/wonolo/jobs/1129952-manager-supply-launch-and-development",
+    "location": "Houston • Texas",
+    "time": "Posted 1 month ago",
+    "title": "Manager, Supply Launch and Development",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Work with the Supply team to create, launch, and refine processes that support a new market’s supply-side growth
+80-90% of role will be traveling to new markets and growing a community of passionate Wonoloers across the United States",
+    "link": "https://angel.co/company/wonolo/jobs/1139521-manager-supply-launch-and-development",
+    "location": "Seattle • Washington",
+    "time": "Posted 1 month ago",
+    "title": "Manager, Supply Launch and Development",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Establish a standard of high availability and reliability for Wonolo’s production systems.
+Influence the direction of our technical roadmap.",
+    "link": "https://angel.co/company/wonolo/jobs/1218735-devops-engineer",
+    "location": "Toronto • Remote",
+    "time": "Posted 1 week ago",
+    "title": "DevOps Engineer",
+  },
+  Object {
+    "category": "Engineering",
+    "description": "Work with the Supply team to create, launch, and refine processes that support a new market’s supply-side growth
+80-90% of role will be traveling to new markets and growing a community of passionate Wonoloers across the United States",
+    "link": "https://angel.co/company/wonolo/jobs/1232416-manager-supply-launch-and-development",
+    "location": "San Francisco • Toronto • Nashville • Remote",
+    "time": "Posted 5 days ago",
+    "title": "Manager, Supply Launch and Development",
+  },
+  Object {
+    "category": "Operations",
+    "description": "Own the recruiting process end to end, from sourcing to close, for our Sales, Customer Success, Marketing, Operations, and Foundation teams
+Drive innovative sourcing strategies to target passive talent across the US and Canada and build robust candidate pipelines",
+    "link": "https://angel.co/company/wonolo/jobs/1238418-business-recruiter",
+    "location": "United States",
+    "time": "Posted yesterday",
+    "title": "Business Recruiter",
+  },
+  Object {
+    "category": "Product",
+    "description": "Own products end-to-end, including defining requirements and features, building product roadmap, and driving cross-functional execution
+Create clear goals for the team and partner closely with engineering and other internal teams to effectively discuss trade offs and prioritize what features get built",
+    "link": "https://angel.co/company/wonolo/jobs/972033-senior-product-manager-mobile",
+    "location": "United States",
+    "time": "Posted 3 weeks ago",
+    "title": "Senior Product Manager, Mobile",
+  },
+  Object {
+    "category": "Sales",
+    "description": "Apply a consultative sales process, identify opportunities, and communicate the value that our products deliver as the solution
+Qualify leads and prospect deals using various sales automation systems",
+    "link": "https://angel.co/company/wonolo/jobs/816409-mid-market-account-executive",
+    "location": "San Francisco • Toronto • Nashville • Remote",
+    "time": null,
+    "title": "Mid Market Account Executive",
+  },
+  Object {
+    "category": "Sales",
+    "description": "Administer standard Sales and Service cloud, and many custom SFDC objects
+Provide support for new processes needed by many business stakeholders",
+    "link": "https://angel.co/company/wonolo/jobs/1001501-salesforce-administrator",
+    "location": "United States",
+    "time": "Posted 5 months ago",
+    "title": "Salesforce Administrator",
+  },
+  Object {
+    "category": "Sales",
+    "description": "Schedule qualified sales meetings from targeted outbound prospecting and marketing-generated leads
+Identify account decision-makers and uncover their critical business needs and challenges",
+    "link": "https://angel.co/company/wonolo/jobs/1124318-sales-development-representative-sdr",
+    "location": "San Francisco • Toronto • Nashville",
+    "time": "Posted 2 months ago",
+    "title": "Sales Development Representative (SDR)",
+  },
+  Object {
+    "category": "Sales",
+    "description": "Lead the Trust and Safety Operations team, overseeing both long-term vision and day-to-day tactical intake and support
+Update, codify, and communicate internal processes, policies, Service Level Agreements, and rules of engagement to ensure effective escalation, tracking and resolution of issues",
+    "link": "https://angel.co/company/wonolo/jobs/1198008-senior-manager-trust-and-safety",
+    "location": "San Francisco • Toronto • Nashville • Remote",
+    "time": "Posted 3 weeks ago",
+    "title": "Senior Manager, Trust and Safety",
+  },
+  Object {
+    "category": "Sales",
+    "description": "Apply a consultative sales process, identify opportunities, and communicate the value that our products deliver as the solution
+Qualify leads and prospect deals using various sales automation systems",
+    "link": "https://angel.co/company/wonolo/jobs/1209057-mid-market-account-executive",
+    "location": "United States • Remote",
+    "time": "Posted 2 weeks ago",
+    "title": "Mid Market Account Executive",
+  },
+  Object {
+    "category": "Sales",
+    "description": "Serve as a coach, mentor, and leader for a growing team of Customer Operations Associates while managing the day-to-day operations, goal setting, performance management, and ensuring team KPIs are achieved
+Participate in customer meetings to help drive successful launch and adoption as well as contin...",
+    "link": "https://angel.co/company/wonolo/jobs/1224663-manager-of-customer-success",
+    "location": "San Francisco • Toronto • Nashville",
+    "time": "Posted 1 week ago",
+    "title": "Manager of Customer Success",
+  },
+  Object {
+    "category": "Sales",
+    "description": "Schedule qualified sales meetings from targeted outbound prospecting and marketing-generated leads
+Identify account decision-makers and uncover their critical business needs and challenges",
+    "link": "https://angel.co/company/wonolo/jobs/1224664-sales-development-representative-sdr",
+    "location": "United States • Remote",
+    "time": "Posted 1 week ago",
+    "title": "Sales Development Representative (SDR)",
+  },
+  Object {
+    "category": "Sales",
+    "description": "Lead the Trust and Safety Operations team, overseeing both long-term vision and day-to-day tactical intake and support
+Update, codify, and communicate internal processes, policies, Service Level Agreements, and rules of engagement to ensure effective escalation, tracking and resolution of issues",
+    "link": "https://angel.co/company/wonolo/jobs/1227385-senior-manager-trust-and-safety",
+    "location": "United States",
+    "time": "Posted 7 days ago",
+    "title": "Senior Manager, Trust and Safety",
+  },
+  Object {
+    "category": "Sales",
+    "description": "Serve as a coach, mentor, and leader for a growing team of Customer Operations Associates
+Participate in customer meetings to help drive successful launch and adoption as well as continued growth throughout the customer journey",
+    "link": "https://angel.co/company/wonolo/jobs/1227387-manager-of-customer-success",
+    "location": "United States",
+    "time": "Posted 7 days ago",
+    "title": "Manager of Customer Success",
+  },
+  Object {
+    "category": "Other",
+    "description": "React on the front-end
+Ruby on Rails, Node, Go, or Elixir on the back-end",
+    "link": "https://angel.co/company/wonolo/jobs/1165328-engineering-co-op-summer-2021",
+    "location": "Canada",
+    "time": "Posted 1 month ago",
+    "title": "Engineering Co-op - Summer 2021",
+  },
+]
+`;

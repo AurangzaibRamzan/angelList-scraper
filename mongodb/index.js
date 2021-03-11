@@ -8,4 +8,10 @@ async function AddCompanyUrls(companies) {
 };
 
 
-module.exports = { AddCompanyUrls };
+async function getCompanies(companies) {
+  const db = await connectMongo();
+  const Table = db.collection("companiesURl");
+  return Table.find(companies).toArray();
+};
+
+module.exports = { AddCompanyUrls, getCompanies};
