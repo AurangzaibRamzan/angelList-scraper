@@ -38,6 +38,7 @@ async function scrapeJob(link) {
     jobType,
     visaSponsorship,
     hiringContact,
+    page: jobPage,
   };
 }
 

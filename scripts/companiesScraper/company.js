@@ -80,6 +80,7 @@ async function scrapeCompany(link) {
     marketTags,
     round,
     member,
+    page,
   };
 }
 

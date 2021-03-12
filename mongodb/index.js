@@ -16,7 +16,7 @@ async function getCompanies(companies) {
 
 async function addCompany(company) {
   const db = await connectMongo();
-  const Table = db.collection("Companies");
+  const Table = db.collection("companies");
   return Table.insertMany([company]);
 };
 
