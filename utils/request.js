@@ -10,12 +10,15 @@ function request({ url }) {
           console.log('exec error: ' + error);
           reject(error);
         }
-        if (!stdout.includes('Request failed. You will not be charged for this request')) {
+        if (
+          !stdout.includes(
+            'Request failed. You will not be charged for this request'
+          )
+        ) {
           return resolve(stdout);
         }
       });
     }
-
   });
 }
 module.exports = request;
