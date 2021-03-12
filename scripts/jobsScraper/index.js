@@ -1,11 +1,9 @@
 const asyncLib = require('async');
 
-const { delay } = require('../../utils/delay');
 const scrapeJob = require('./scrapeJob');
 
 async function scrapeJobData(companyURL, callback) {
   const data = await scrapeJob(companyURL);
-  await delay(10000);
   return callback(null, data);
 }
 

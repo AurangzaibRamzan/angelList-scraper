@@ -1,9 +1,11 @@
 const _ = require('lodash');
+const { delay } = require('./delay');
 
 function request({ url }) {
-  return new Promise((resolve, reject) => {
+  return new Promise(async (resolve, reject) => {
     for (let j = 0; j < 5; j++) {
       var exec = require('child_process').exec;
+      await delay(1000);
       var command = `curl -x "http://scraperapi:78a2fe8671711a00c911dd8a30dfe596@proxy-server.scraperapi.com:8001" -k "${url}"`;
       child = exec(command, function (error, stdout, stderr) {
         if (error !== null) {
