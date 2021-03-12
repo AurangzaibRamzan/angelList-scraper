@@ -1,9 +1,12 @@
 const _ = require('lodash');
+require('https').globalAgent.options.ca = require('ssl-root-cas').create();
 const async = require('async');
 const request = require('request');
 
 const randomUseragent = require('random-useragent');
 const config = require('../config.json');
+const cookie = require('./cookie');
+
 
 const RETRIABLE_ERRORS = [
   'ECONNRESET',
@@ -68,49 +71,53 @@ const baseRequest = request.defaults({
 const doHTTP_base = function (proxy_host_list, opts_orig, callback) {
   async.retry(
     {
-      times: 10,
+      times: 3,
       interval: (retryCount) => 50 * Math.pow(2, retryCount), // exponential backoff in milliseconds
       errorFilter: (err) => { console.log('err in proxy request: ', err); return err && _.includes(RETRIABLE_ERRORS, err.code) }, // should retry the request
     },
     (callback) => {
+      const ip = proxy_host_list ? _.sample(proxy_host_list).split(':')[0] : null;
+      const userAgent = randomUseragent.getRandom();
+      cookie(ip, userAgent, (body) => {
+        const opts = _.cloneDeep(opts_orig);
+        _.defaultsDeep(opts, {
+          headers: {
+            'User-Agent': userAgent,
+            'Cookie': JSON.parse(body).cookie,
+            // TODO: "Referer": "", i.e. google? or the root of opts.url ? it should be randomized
+          },
+        });
+        if (proxy_host_list) {
+          // for testing the proxy headers, use "https://httpbin.org/headers"
+          // opts.proxy = 'http://' + _.sample(proxy_host_list);
+          const proxyDetails = _.sample(proxy_host_list).split(':');
+          opts.proxy = 'http://scraperapi:78a2fe8671711a00c911dd8a30dfe596@proxy-server.scraperapi.com:8001',
+            // opts.headers.Cookie = JSON.parse(data).cookie;
 
-
-      const opts = _.cloneDeep(opts_orig);
-      var ip = (Math.floor(Math.random() * 255) + 1) + "." + (Math.floor(Math.random() * 255)) + "." + (Math.floor(Math.random() * 255)) + "." + (Math.floor(Math.random() * 255));
-      _.defaultsDeep(opts, {
-        headers: {
-          'User-Agent': randomUseragent.getRandom(),
-          // TODO: "Referer": "", i.e. google? or the root of opts.url ? it should be randomized
-        },
-      });
-      if (proxy_host_list) {
-        // for testing the proxy headers, use "https://httpbin.org/headers"
-        // opts.proxy = 'http://' + _.sample(proxy_host_list);
-        const proxyDetails = _.sample(proxy_host_list).split(':');
-        opts.proxy = `http://${proxyDetails[2]}:${proxyDetails[3]}@${proxyDetails[0]}:${proxyDetails[1]}`;
-        opts.tunnel = true;
-      }
-
-      if (opts.headers.proxy && !opts.headers.proxyHeaderWhiteList) {
-        // if using a proxy, we need to set proxyHeaderWhiteList
-        opts.headers.proxyHeaderWhiteList = _.keys(opts.headers);
-      }
-
-      console.log('requesting: ', opts);
-      baseRequest(opts, (err, resp, body) => {
-        if (err) return callback(err);
-
-        const { statusCode } = resp || {};
-
-        if (statusCode < 200 || statusCode >= 300) {
-          err = new Error(
-            'Got a statusCode=' + statusCode + ' for: ' + opts_orig.url
-          );
-          err.json = { statusCode, opts }; // provide more details, i.e. maybe a UA or proxy is getting blocked
-          return callback(err);
+            opts.tunnel = true;
         }
-        callback(null, body);
-      });
+
+        if (opts.headers.proxy && !opts.headers.proxyHeaderWhiteList) {
+          // if using a proxy, we need to set proxyHeaderWhiteList
+          opts.headers.proxyHeaderWhiteList = _.keys(opts.headers);
+        }
+        console.log(opts)
+        baseRequest(opts, (err, resp, body) => {
+          if (err) return callback(err);
+
+          const { statusCode } = resp || {};
+
+          if (statusCode < 200 || statusCode >= 300) {
+            err = new Error(
+              'Got a statusCode=' + statusCode + ' for: ' + opts_orig.url
+            );
+            err.json = { statusCode, opts }; // provide more details, i.e. maybe a UA or proxy is getting blocked
+            return callback(err);
+          }
+          callback(null, body);
+        });
+      })
+
     },
     callback
   );
@@ -127,7 +134,7 @@ const doHTTP = function (opts, no_proxy, callback) {
   });
 };
 
-module.exports = function (opts, callback) {
+module.exports = async function (opts, callback) {
   const no_proxy = !!opts.widespread_no_proxy;
   opts = _.omitBy(opts, (val, key) => /^widespread/.test(key));
 

@@ -64,10 +64,10 @@ async function scrapeCompany(link) {
       member.push({
         name: $(elem).find('h4').text(),
         tilte: title.includes('•') ? title.slice(0, title.indexOf('•')).trim() : title,
+        url: `https://angel.co${$(elem).find('h4').find('a').attr('href')}`,
       })
     }
   });
-
   return {
     url: link,
     name,

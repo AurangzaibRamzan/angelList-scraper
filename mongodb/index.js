@@ -14,4 +14,10 @@ async function getCompanies(companies) {
   return Table.find(companies).toArray();
 };
 
-module.exports = { AddCompanyUrls, getCompanies};
+async function addCompany(company) {
+  const db = await connectMongo();
+  const Table = db.collection("Companies");
+  return Table.insertMany([company]);
+};
+
+module.exports = { AddCompanyUrls, getCompanies, addCompany };
