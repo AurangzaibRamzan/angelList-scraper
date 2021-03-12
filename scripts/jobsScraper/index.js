@@ -1,14 +1,26 @@
+const asyncLib = require('async');
+
+const { delay } = require('../../utils/delay');
 const scrapeJob = require('./scrapeJob');
 
-async function scrapeJobs() {
-  const jobLinks = ['https://angel.co/company/wonolo/jobs/909052-senior-full-stack-software-engineer-internal-tools'];
-  const job = await scrapeJob(jobLinks[0]);
-
-  console.log('scrape', {
-    job,
-  });
+async function scrapeJobData(companyURL, callback) {
+  const data = await scrapeJob(companyURL);
+  await delay(10000);
+  return callback(null, data);
 }
 
+async function scrapeJobs(jobLinks) {
+  return new Promise((resolve, reject) => {
+    asyncLib.series(
+      jobLinks.map((jobURL) => (nextJob) => {
+        scrapeJobData(jobURL, nextJob);
+      }),
+      (err, res) => {
+        if (err) return reject(err);
+        resolve(res);
+      }
+    )
+  })
+}
 
-scrapeJobs();
-
+module.exports = scrapeJobs;

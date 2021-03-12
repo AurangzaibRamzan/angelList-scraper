@@ -29,7 +29,7 @@ async function scrapeJobs(link) {
 
   })
 
-  return jobs;
+  return { data: jobs, page: jobsPage };
 }
 
 
