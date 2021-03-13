@@ -30,7 +30,7 @@ function scrapeCompaniesJobs(companiesLinks) {
       companiesLinks.map((companyURL) => (nextCompany) => {
         scrapeCompanyJobsData(companyURL, nextCompany);
       }),
-      4,
+      8,
       () => resolve()
     );
   });
