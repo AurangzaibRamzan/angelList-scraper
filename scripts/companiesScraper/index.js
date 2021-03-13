@@ -8,12 +8,18 @@ const { getCompanies, addCompany } = require('../../mongodb');
 
 async function scrapeCompanyData(companyURL, callback) {
   console.log('companyURL', companyURL);
-  const companyData = await scrapeCompany(companyURL);
-  const jobs = await scrapeJobs(companyURL)
-  const jobsLinks = _.map(_.get(jobs, 'data'), 'link');
-  const detailJobs = await scrapeDetailJobs(jobsLinks);
-  await addCompany({ ...companyData, jobs: jobs, detailJobs });
-  return callback(null);
+
+  try {
+    const companyData = await scrapeCompany(companyURL);
+    const jobs = await scrapeJobs(companyURL);
+    const jobsLinks = _.map(_.get(jobs, 'data'), 'link');
+    const detailJobs = await scrapeDetailJobs(jobsLinks);
+    await addCompany({ ...companyData, jobs: jobs, detailJobs });
+  } catch (err) {
+    console.log(`Error while scraping ${companyURL}`, err);
+  } finally {
+    return callback();
+  }
 }
 
 async function scrapeCompanies() {
