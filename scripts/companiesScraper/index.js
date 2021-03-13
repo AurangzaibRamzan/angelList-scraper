@@ -10,7 +10,7 @@ async function scrapeCompanies() {
 
     const companies = await getCompanies();
     let companiesLinks = _.map(companies, 'url');
-    companiesLinks = companiesLinks.slice(0, 10);
+    // companiesLinks = companiesLinks.slice(0, 10);
 
     await scrapeCompaniesInfo(companiesLinks);
     await scrapeCompaniesJobs(companiesLinks);
