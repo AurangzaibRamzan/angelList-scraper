@@ -4,6 +4,7 @@ const request = require('../../utils/request');
 async function scrapeJob(link) {
   const jobPage = await request({ url: link })
   const $ = cheerio.load(jobPage);
+
   const title = $('div.styles_title__1MUG6').find('h2').text();
   const description = $('div.styles_description__4fnTp').text().trim();
   let location = null;
@@ -11,7 +12,6 @@ async function scrapeJob(link) {
   let visaSponsorship = null;
   let hiringContact = null;
   $('div.styles_characteristic__3-A9g').each((i, obj) => {
-    // console.log()
     if ($(obj).text().includes('Location')) {
       location = $(obj).find('div.styles_component__26gqE').text().trim();
     }
@@ -32,6 +32,7 @@ async function scrapeJob(link) {
 
   }
   return {
+    url: link,
     title,
     description,
     location,

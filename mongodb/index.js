@@ -1,23 +1,22 @@
-var _ = require('lodash');
-var connectMongo = require('./connect');
+const _ = require('lodash');
+const connectMongo = require('./connect');
 
 async function AddCompanyUrls(companies) {
   const db = await connectMongo();
-  const Table = db.collection("companiesURl");
+  const Table = db.collection('companiesURl');
   return Table.insertMany(companies);
-};
-
+}
 
 async function getCompanies(companies) {
   const db = await connectMongo();
-  const Table = db.collection("companiesURl");
+  const Table = db.collection('companiesURl');
   return Table.find(companies).toArray();
-};
+}
 
-async function addCompany(company) {
+async function saveDataInDB(data) {
   const db = await connectMongo();
-  const Table = db.collection("companies");
-  return Table.insertMany([company]);
-};
+  const Table = db.collection('scrappedData');
+  return Table.insertOne(data);
+}
 
-module.exports = { AddCompanyUrls, getCompanies, addCompany };
+module.exports = { AddCompanyUrls, getCompanies, saveDataInDB };

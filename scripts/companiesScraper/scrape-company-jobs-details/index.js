@@ -1,13 +1,13 @@
-const asyncLib = require('async');
+import asyncLib from 'async';
 
-const scrapeJob = require('./scrapeJob');
+import scrapeJob from './scrape-job';
 
 async function scrapeJobData(companyURL, callback) {
   const data = await scrapeJob(companyURL);
   return callback(null, data);
 }
 
-async function scrapeJobs(jobLinks) {
+async function scrapeCompanyJobsDetails(jobLinks) {
   return new Promise((resolve, reject) => {
     asyncLib.series(
       jobLinks.map((jobURL) => (nextJob) => {
@@ -17,8 +17,8 @@ async function scrapeJobs(jobLinks) {
         if (err) return reject(err);
         resolve(res);
       }
-    )
-  })
+    );
+  });
 }
 
-module.exports = scrapeJobs;
+export default scrapeCompanyJobsDetails;
