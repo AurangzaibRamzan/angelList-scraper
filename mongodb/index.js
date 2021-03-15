@@ -20,4 +20,10 @@ async function addCompany(company) {
   return Table.insertMany([company]);
 };
 
-module.exports = { AddCompanyUrls, getCompanies, addCompany };
+async function addJob(company) {
+  const db = await connectMongo();
+  const Table = db.collection("jobs");
+  return Table.insertMany([company]);
+};
+
+module.exports = { AddCompanyUrls, getCompanies, addCompany, addJob };

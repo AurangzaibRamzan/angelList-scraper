@@ -1,39 +1,32 @@
 const _ = require('lodash');
-const asyncLib = require('async');
+const pLimit = require('p-limit');
 
 const scrapeCompany = require('./company');
 const scrapeJobs = require('./jobs');
 const scrapeDetailJobs = require('../jobsScraper');
 const { getCompanies, addCompany } = require('../../mongodb');
 
-async function scrapeCompanyData(companyURL, callback) {
-  console.log('companyURL', companyURL);
+const limit = pLimit(2);
 
+async function scrapeCompanyData(companyURL) {
+  console.log('companyURL', companyURL);
   try {
     const companyData = await scrapeCompany(companyURL);
     const jobs = await scrapeJobs(companyURL);
     const jobsLinks = _.map(_.get(jobs, 'data'), 'link');
-    const detailJobs = await scrapeDetailJobs(jobsLinks);
-    await addCompany({ ...companyData, jobs: jobs, detailJobs });
+    await addCompany({ ...companyData, jobs: jobs });
+    await scrapeDetailJobs(jobsLinks, companyURL);
   } catch (err) {
     console.log(`Error while scraping ${companyURL}`, err);
-  } finally {
-    return callback();
   }
 }
 
 async function scrapeCompanies() {
   const companies = await getCompanies();
   const companiesLinks = _.map(companies, 'url');
-
-  asyncLib.series(
-    companiesLinks.map((companyURL) => (nextCompany) => {
-      scrapeCompanyData(companyURL, nextCompany);
-    }),
-    () => {
-      console.log('DONE!!');
-    }
-  );
+  console.log(companiesLinks);
+  await Promise.all(companiesLinks.map((companyURL) => limit(() => scrapeCompanyData(companyURL))));
+  console.log('script end');
 }
 
 scrapeCompanies();
