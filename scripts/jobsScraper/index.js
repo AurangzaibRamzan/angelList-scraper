@@ -5,11 +5,15 @@ const scrapeJob = require('./scrapeJob');
 const { addJob } = require('../../mongodb');
 
 async function scrapeJobData(jobURL, companyURL, callback) {
-  const data = await scrapeJob(jobURL);
-  if (!_.isEmpty(data)) {
-    await addJob({ comapnyUrl: companyURL, jobUrl: jobURL, ...data });
+  try {
+    const data = await scrapeJob(jobURL);
+    if (!_.isEmpty(data)) {
+      await addJob({ comapnyUrl: companyURL, jobUrl: jobURL, ...data });
+    }
+    return callback(null, data);
+  } catch (e) {
+    console.log(`Error in ${jobURL}`, e)
   }
-  return callback(null, data);
 }
 
 async function scrapeJobs(jobLinks, companyURL) {

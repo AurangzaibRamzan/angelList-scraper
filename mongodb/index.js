@@ -14,10 +14,10 @@ async function getCompanies(companies) {
   return Table.find(companies).toArray();
 };
 
-async function getCompany(companies) {
+async function getCompany(company) {
   const db = await connectMongo();
   const Table = db.collection("companies");
-  return Table.find(companies).toArray();
+  return Table.find(company).toArray();
 };
 
 async function addCompany(company) {
