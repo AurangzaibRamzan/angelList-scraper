@@ -24,7 +24,6 @@ async function scrapeCompanyData(companyURL) {
 async function scrapeCompanies() {
   const companies = await getCompanies();
   const companiesLinks = _.map(companies, 'url');
-  console.log(companiesLinks);
   await Promise.all(companiesLinks.map((companyURL) => limit(() => scrapeCompanyData(companyURL))));
   console.log('script end');
 }

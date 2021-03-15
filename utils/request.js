@@ -1,8 +1,12 @@
 const _ = require('lodash');
+const timeout = 30 * 1000;
 
 function apiRequest({ url }, next) {
   const exec = require('child_process').exec;
   const command = `curl -x "http://scraperapi:78a2fe8671711a00c911dd8a30dfe596@proxy-server.scraperapi.com:8001" -k "${url}"`;
+  setTimeout(function () {
+    next(null, 'timeout');
+  }, timeout)
   exec(command, (error, stdout) => {
     if (error !== null) {
       console.log(`Request Error [${url}]`, error);
@@ -16,7 +20,11 @@ function myRequest(opts, next) {
   const MAX_TRIES = 3;
   function repeater(tryCount) {
     if (tryCount < MAX_TRIES) {
-      apiRequest(opts, (data) => {
+      apiRequest(opts, (data, error) => {
+        if (error) {
+          return repeater(tryCount + 1);
+          // return next(null, `Request failed: timeout after ${timeout / 1000} sec`)
+        };
         if (!data) return next();
         if (
           data.includes(
