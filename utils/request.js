@@ -1,16 +1,21 @@
 const _ = require('lodash');
-const timeout = 30 * 1000;
+const { delay } = require('./delay');
+const timeout = 50 * 1000;
 
-function apiRequest({ url }, next) {
+
+async function apiRequest({ url }, next) {
   const exec = require('child_process').exec;
+  await delay(1000);
   const command = `curl -x "http://scraperapi:78a2fe8671711a00c911dd8a30dfe596@proxy-server.scraperapi.com:8001" -k "${url}"`;
-  setTimeout(function () {
-    next(null, 'timeout');
-  }, timeout)
-  exec(command, (error, stdout) => {
+  var options = {
+    timeout,
+    killSignal: 'SIGKILL'
+  }
+
+  exec(command, options, (error, stdout) => {
     if (error !== null) {
       console.log(`Request Error [${url}]`, error);
-      return next();
+      return next(null, error);
     }
     return next(stdout);
   });

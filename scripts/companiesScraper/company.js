@@ -3,8 +3,8 @@ const request = require('../../utils/request');
 
 async function scrapeCompany(link) {
   const page = await request({ url: link })
-
-  const $ = cheerio.load(page);
+  if (!page) return {};
+  const $ = cheerio.load(page || '');
   const links = {};
   let companySize = {};
   let raised = {};

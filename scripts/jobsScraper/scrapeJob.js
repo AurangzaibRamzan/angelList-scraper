@@ -2,8 +2,9 @@ const cheerio = require('cheerio');
 const request = require('../../utils/request');
 
 async function scrapeJob(link) {
-  const jobPage = await request({ url: link })
-  const $ = cheerio.load(jobPage);
+  const jobPage = await request({ url: link });
+  if (!jobPage) return {};
+  const $ = cheerio.load(jobPage || '');
   const title = $('div.styles_title__1MUG6').find('h2').text();
   const description = $('div.styles_description__4fnTp').text().trim();
   let location = null;

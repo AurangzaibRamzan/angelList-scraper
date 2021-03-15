@@ -1,11 +1,14 @@
 const asyncLib = require('async');
+const _ = require('lodash');
 
 const scrapeJob = require('./scrapeJob');
 const { addJob } = require('../../mongodb');
 
 async function scrapeJobData(jobURL, companyURL, callback) {
   const data = await scrapeJob(jobURL);
-  await addJob({ comapnyUrl: companyURL, jobUrl: jobURL, ...data });
+  if (!_.isEmpty(data)) {
+    await addJob({ comapnyUrl: companyURL, jobUrl: jobURL, ...data });
+  }
   return callback(null, data);
 }
 

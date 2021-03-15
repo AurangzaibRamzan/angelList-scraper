@@ -3,7 +3,8 @@ const request = require('../../utils/request');
 
 async function scrapeJobs(link) {
   const jobsPage = await request({ url: `${link}/jobs` })
-  const $ = cheerio.load(jobsPage);
+  if (!jobsPage) return {};
+  const $ = cheerio.load(jobsPage || '');
   let jobs = [];
   $('div.styles_component__1_YxE').each((i, elem) => {
     const category = $(elem).find('h6').first().text();
