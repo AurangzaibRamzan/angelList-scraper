@@ -9,7 +9,6 @@ async function apiRequest({ url }, next) {
   const command = `curl -x "http://scraperapi:78a2fe8671711a00c911dd8a30dfe596@proxy-server.scraperapi.com:8001" -k "${url}"`;
   var options = {
     timeout,
-    killSignal: 'SIGKILL'
   }
 
   exec(command, options, (error, stdout) => {
