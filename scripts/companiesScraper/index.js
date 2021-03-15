@@ -15,11 +15,10 @@ async function scrapeCompanyData(companyURL) {
     if (!(!_.isEmpty(company) && _.isArray(company) && _.get(company[0], 'name'))) {
       const companyData = await scrapeCompany(companyURL);
       const jobs = await scrapeJobs(companyURL);
-      const jobsLinks = _.map(_.get(jobs, 'data'), 'link');
       if (!_.isEmpty(companyData)) {
         await addCompany({ ...companyData, jobs: jobs });
       }
-      await scrapeDetailJobs(jobsLinks, companyURL);
+      // await scrapeDetailJobs(jobsLinks, companyURL);
     }
   } catch (err) {
     console.log(`Error while scraping ${companyURL}`, err);
