@@ -6,7 +6,7 @@ const scrapeJobs = require('./jobs');
 const scrapeDetailJobs = require('../jobsScraper');
 const { getCompanies, addCompany } = require('../../mongodb');
 
-const limit = pLimit(2);
+const limit = pLimit(8);
 
 async function scrapeCompanyData(companyURL) {
   console.log('companyURL', companyURL);
