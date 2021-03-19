@@ -5,7 +5,7 @@ const timeout = 50 * 1000;
 
 async function apiRequest({ url }, next) {
   const exec = require('child_process').exec;
-  await delay(1000);
+  await delay(4000);
   const command = `curl -x "http://scraperapi:78a2fe8671711a00c911dd8a30dfe596@proxy-server.scraperapi.com:8001" -k "${url}"`;
   var options = {
     timeout,

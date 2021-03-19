@@ -20,6 +20,18 @@ async function getCompany(company) {
   return Table.find(company).toArray();
 };
 
+async function getJob(job) {
+  const db = await connectMongo();
+  const Table = db.collection("jobs");
+  return Table.find(job).toArray();
+};
+
+async function getDetailedCompanies(companies) {
+  const db = await connectMongo();
+  const Table = db.collection("companies");
+  return Table.find(companies).toArray();
+};
+
 async function addCompany(company) {
   const db = await connectMongo();
   const Table = db.collection("companies");
@@ -32,4 +44,7 @@ async function addJob(company) {
   return Table.insertMany([company]);
 };
 
-module.exports = { AddCompanyUrls, getCompanies, addCompany, addJob, getCompany };
+module.exports = {
+  AddCompanyUrls,
+  getCompanies, addCompany, addJob, getCompany, getDetailedCompanies, getJob
+};

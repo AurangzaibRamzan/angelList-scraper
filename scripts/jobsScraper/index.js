@@ -1,33 +1,41 @@
-const asyncLib = require('async');
 const _ = require('lodash');
+const pLimit = require('p-limit');
 
 const scrapeJob = require('./scrapeJob');
-const { addJob } = require('../../mongodb');
+const { addJob, getDetailedCompanies, getJob } = require('../../mongodb');
 
-async function scrapeJobData(jobURL, companyURL, callback) {
+const limit = pLimit(5);
+
+async function scrapeJobData(jobUrl) {
+  console.log('jobUrl', jobUrl);
   try {
-    const data = await scrapeJob(jobURL);
-    if (!_.isEmpty(data)) {
-      await addJob({ comapnyUrl: companyURL, jobUrl: jobURL, ...data });
+    const job = await getJob({ jobUrl: jobUrl });
+    if (!(!_.isEmpty(job) && _.isArray(job) && _.get(job[0], 'title'))) {
+      const data = await scrapeJob(jobUrl);
+      if (!_.isEmpty(data)) {
+        await addJob({ jobUrl: jobUrl, ...data });
+      }
     }
-    return callback(null, data);
   } catch (e) {
     console.log(`Error in ${jobURL}`, e)
   }
 }
 
-async function scrapeJobs(jobLinks, companyURL) {
-  return new Promise((resolve, reject) => {
-    asyncLib.series(
-      jobLinks.map((jobURL) => (nextJob) => {
-        scrapeJobData(jobURL, companyURL, nextJob);
-      }),
-      (err, res) => {
-        if (err) return reject(err);
-        resolve(res);
-      }
-    )
-  })
+async function scrapeJobs() {
+  const companies = await getDetailedCompanies();
+  const data = _.filter(_.map(companies, (obj) => {
+    return obj.jobs.data;
+  }), (obj) => {
+    if (!_.isEmpty(obj)) return true;
+    return false
+  });
+  const jobs = [].concat(...data);
+  const jobsLink = _.map(jobs, 'link');
+  console.log(`total jobs links`, jobsLink.length)
+  await Promise.all(jobsLink.map((jobUrl) => limit(() => scrapeJobData(jobUrl))));
+  console.log('script end');
 }
+
+scrapeJobs();
 
 module.exports = scrapeJobs;

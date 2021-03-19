@@ -3,7 +3,6 @@ const pLimit = require('p-limit');
 
 const scrapeCompany = require('./company');
 const scrapeJobs = require('./jobs');
-const scrapeDetailJobs = require('../jobsScraper');
 const { getCompanies, addCompany, getCompany } = require('../../mongodb');
 
 const limit = pLimit(5);
@@ -18,7 +17,6 @@ async function scrapeCompanyData(companyURL) {
       if (!_.isEmpty(companyData)) {
         await addCompany({ ...companyData, jobs: jobs });
       }
-      // await scrapeDetailJobs(jobsLinks, companyURL);
     }
   } catch (err) {
     console.log(`Error while scraping ${companyURL}`, err);

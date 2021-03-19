@@ -6,6 +6,7 @@
   "scripts": {
     "save-company-urls": "node scripts/getCompanies/index.js",
     "scrape-companies": "node scripts/companiesScraper/index.js",
+    "scrape-jobs": "node scripts/jobsScraper/index.js",
     "test": "jest"
   },
   "author": "",
