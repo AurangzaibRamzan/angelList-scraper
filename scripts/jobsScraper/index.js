@@ -17,7 +17,7 @@ async function scrapeJobData(jobUrl) {
       }
     }
   } catch (e) {
-    console.log(`Error in ${jobURL}`, e)
+    console.log(`Error in ${jobUrl}`, e)
   }
 }
 
